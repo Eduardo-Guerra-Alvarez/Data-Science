@@ -1,0 +1,35 @@
+---
+title: "Data Cience"
+output:
+  html_document: default
+  pdf_document: default
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+# Este es un ejemplo de R Markdown
+
+En esta parte nosotros podemos ir presentando codigo y ver su salida de este por el cual es similar a jupyter con python en el cual vamos mostrando y explicando el proceso de la creacion de un software.
+
+### Este es un ejemplo de una tabla 
+En donde ingresamos datos y podemos ver su salida
+
+```{r dato}
+dato <- c(1,2,3,4,5,6)
+dato
+```
+O por ejemplo esta otra tabla que muestra lo siguiente
+```{r cars}
+summary(cars)
+```
+
+## Nosotros podemos incluir diagramas tambien en Marckdown
+
+Este es un ejemplo de un diagrama:
+
+```{r pressure, echo=FALSE}
+plot(pressure)
+```
+
